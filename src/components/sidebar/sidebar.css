@@ -1,0 +1,118 @@
+.side-wrapper {
+  align-items: flex-start;
+  width: 15%;
+  background: #5041bc;
+  padding: 40px;
+  border-radius: 20px;
+  margin-right: -80px;
+}
+
+.navlist .navrow {
+  height: 60px;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20.46px;
+  border-radius: 10px;
+}
+
+.navrow #icon {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.navrow #icon:hover {
+  color: #5041bc;
+}
+
+.navrow #title {
+  flex: 70%;
+  padding: 0 20px;
+}
+
+.navlist {
+  padding: 20px 0;
+}
+
+.navlist .navrow:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #5041bc;
+}
+
+.navlist #active {
+  background-color: #ffffff;
+  color: #5041bc;
+  font-weight: 800;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 20px;
+  width: 180px;
+  padding: 20px;
+}
+
+.card > img {
+  width: 100%;
+  height: 100%;
+}
+
+.upgrade-btn {
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background: #ff7f57;
+  padding: 15px 30px;
+  line-height: 19.1px;
+  border-radius: 20px;
+}
+
+.card > p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 19.1px;
+  text-align: center;
+}
+
+hr {
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 0;
+}
+.orange-circle {
+  justify-content: center;
+  background: #ffc629;
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 100%;
+  transform: translate(50%, -10%);
+}
+.orange-circle > h1 {
+  font-family: "passion one";
+  color: #fff;
+  font-size: 40px;
+  margin-left: 100%;
+  margin-top: 30%;
+  text-transform: uppercase;
+}
+
+.yellow-circle {
+  background: #ff7f57;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  z-index: -1;
+}

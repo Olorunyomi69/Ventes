@@ -1,0 +1,44 @@
+.rep-cards {
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px auto;
+  border: 1px solid #ebe8ff;
+  border-radius: 15px;
+  padding: 20px;
+  color: #797d8c;
+  font-weight: 600;
+}
+
+.rep-wrapper > h2 {
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.rep-cards :nth-child(3) {
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+}
+.rep-cards #icon {
+  color: #5041bc;
+}
+
+#rank {
+  color: #f7941d;
+}
+
+#silver {
+  color: #43be83;
+}
+#rank,
+#silver {
+  display: flex;
+  align-items: center;
+}
+.rep-container {
+  margin: 0 auto;
+}
+#rank > svg,
+#silver > svg {
+  width: 16px;
+}
