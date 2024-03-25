@@ -1,0 +1,102 @@
+.stat-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.chart-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.span-wrapper {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+.span-wrapper > span {
+  display: flex;
+  align-items: center;
+}
+.span-wrapper span > svg {
+  width: 15px;
+}
+.span-wrapper span > svg :first-of-type {
+  color: #e26169;
+}
+
+.span-wrapper span > svg :last-of-type {
+  color: #5041bc;
+}
+
+#submitted {
+  font-weight: 700;
+  line-height: 19.1px;
+  color: #5041bc;
+}
+#approved {
+  font-weight: 700;
+  line-height: 19.1px;
+  color: #e26169;
+}
+
+.statcard-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  margin: 20px;
+  background-color: #5041bc;
+  color: #fff;
+  padding: 0 30px;
+  width: 380px;
+  border-radius: 20px;
+  box-shadow: -20px 30px 70px 0px rgba(69, 51, 201, 0.502);
+}
+
+.statcard-left {
+  gap: 20px;
+}
+.statcard-right {
+  gap: 45px;
+}
+
+.top-right {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+
+.statcard-right :nth-child(1) {
+  width: 150px;
+}
+
+.statcard-right :nth-child(2) {
+  width: 45px;
+}
+
+.top > h1,
+.bottom > h1 {
+  margin: 0;
+  font-weight: 900;
+}
+
+.top > p,
+.bottom > p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.bottom > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bottom span > p {
+  font-size: 14px;
+  margin: 0;
+}
+.bottom span > svg {
+  width: 18px;
+  color: #ffc629;
+}

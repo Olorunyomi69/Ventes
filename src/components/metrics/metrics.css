@@ -1,0 +1,54 @@
+.metrics-wrapper {
+  justify-content: center;
+  border: 1px solid #d3cbfb;
+  border-radius: 20px;
+  width: 260px;
+  height: 200px;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.subscript {
+  justify-content: space-between;
+}
+.subscript :nth-child(1) {
+  color: #43be83;
+  font-weight: 700;
+  line-height: 19.1px;
+  text-align: center;
+  align-items: center;
+}
+.subscript :nth-child(2) {
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.metrics-title > span > svg {
+  width: 40px;
+  height: 40px;
+}
+.metrics-title {
+  justify-content: space-between;
+  margin: 0;
+}
+
+.metrics-title > p {
+  font-family: Nunito;
+  font-weight: 600;
+  line-height: 19.1px;
+  text-align: left;
+  color: #797d8c;
+  margin: 0;
+}
+
+.metric-stats > h1 {
+  font-family: Nunito;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 43.65px;
+  margin: 0;
+}
+#red {
+  color: #ea8f95;
+}
